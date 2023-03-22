@@ -2,7 +2,73 @@
     font-family: spongefont;
     src: url(SpongeboyRegular.otf);
 }
+html {
+    height: 100%;
+    font-size: 16px;
+    background: rgb(17,89,167);
+    background: linear-gradient(0deg, rgba(17,89,167,1) 50%, rgba(77,192,206,1) 100%);
+}
 h1 {
     font-family: spongefont;
     text-align: center;
+    font-size: 3em;
+    color: aliceblue;
+}
+.container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #fff;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.10);
+    padding-bottom: 20px;
+}
+
+.recipe-img {
+    object-fit: cover;
+    max-width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.recipe-title {
+    font-family: spongeboy;
+    text-align: center;
+    font-size: 1.25em;
+    margin-bottom: -5px;
+}
+
+.recipe-title-link {
+    text-decoration: none;
+    color: #4DC0CE;
+}
+.author-name {
+    font-family: 'Gill Sans', sans-serif;
+    color: rgb(122, 122, 122);
+    text-align: center;
+}
+.description {
+    font-family: 'Gill Sans', sans-serif;
+    padding: 0 1.5rem;
+}
+.full-recipe-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(17,89,167);
+    border-radius: 30px;
+    color: #fff;
+    font-family: Gill Sans, sans-serif;
+}
+
+.recipe-btn {
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
 }
