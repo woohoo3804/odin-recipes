@@ -1,0 +1,8 @@
+@font-face {
+    font-family: spongefont;
+    src: url(SpongeboyRegular.otf);
+}
+h1 {
+    font-family: spongefont;
+    text-align: center;
+}
