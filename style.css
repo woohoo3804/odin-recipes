@@ -79,3 +79,13 @@ h1#homepage-title {
 .full-recipe-link:hover {
     background-color: #4DC0CE;
 }
+
+.ingredient-number {
+    font-size: 30em;
+    color: red;
+}
+
+p.ingredient {
+    color: red;
+}
+
