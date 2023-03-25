@@ -5,7 +5,6 @@
 html {
     min-height: 100%;
     font-size: 16px;
-    background: rgb(17,89,167);
     background: linear-gradient(0deg, rgba(17,89,167,1) 50%, rgba(77,192,206,1) 100%);
 }
 h1 {
@@ -15,8 +14,9 @@ h1 {
     color: aliceblue;
 }
 p {
-    font-size: 1em;
+    font-size: 1.25rem;
     font-family: 'Gill Sans', sans-serif;
+    color: rgb(0, 49, 101);
 }
 h1#homepage-title {
     padding: 30px;
@@ -81,29 +81,54 @@ h1#homepage-title {
 }
 
 .ingredient-number {
-    font-size: 2em;
+    font-size: 1.5em;
     
 }
 
 .recipe-img {
    width: 50vw;
    display: block;
-   margin: 50px auto;
+   margin: 5em auto;
    border-radius: 30px;
    margin-bottom: -100px;
+   max-width: 700px;
 }
 
-.recipe-container {
+.recipe-card-container {
     background-color: aliceblue;
     padding: 0px;
     width: 75vw;
+    max-width: 1000px;
     margin: 0 auto;
     border-radius: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 5em;
 }
 .recipe-title {
     font-family: Spongeboy;
     text-align: center;
     font-size: 2.5em;
     padding-top: 90px;
+    margin-bottom: -5px;
+    color: rgba(77,192,206)
+}
+.recipe-container {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding: 0 50px;
+}
+.instructions {
+    width: 45%;
+    background-color:rgba(77,192,206,.15);
+    height: 100%;
+    margin-top: 25px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+.instruction-list {
+    font-family: Gill Sans, sans serif;
+    margin-bottom: 1.25em;
+    font-size: 1.25em;
 }
 
